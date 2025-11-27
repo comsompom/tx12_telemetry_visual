@@ -11,7 +11,7 @@
 ### 1. Open Project in Xcode
 
 ```bash
-cd radiomaster_tx12/macos_telemetry_visual
+cd tx12_telemetry_visual
 open TelemetryHUD.xcodeproj
 ```
 
@@ -63,5 +63,5 @@ The resulting `TelemetryHUD.app` can be run on any Mac (macOS 13.0+).
 - Check that telemetry forwarding is enabled
 - Ensure baud rate matches (default: 115200)
 
-For detailed information, see `README_MACOS_APP.md`.
+For detailed information, see `README.md`.
 

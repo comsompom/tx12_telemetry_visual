@@ -31,7 +31,8 @@ A fully native macOS application written in Swift for real-time ArduPilot teleme
 
 1. **Open the project in Xcode:**
    ```bash
-   cd radiomaster_tx12/macos_telemetry_visual
+   git clone git@github.com:comsompom/tx12_telemetry_visual.git
+   cd tx12_telemetry_visual
    open TelemetryHUD.xcodeproj
    ```
 
@@ -55,7 +56,8 @@ A fully native macOS application written in Swift for real-time ArduPilot teleme
 ### Method 2: Build from Command Line
 
 ```bash
-cd radiomaster_tx12/macos_telemetry_visual
+git clone git@github.com:comsompom/tx12_telemetry_visual.git
+cd tx12_telemetry_visual
 xcodebuild -project TelemetryHUD.xcodeproj -scheme TelemetryHUD -configuration Release
 ```
 
@@ -67,7 +69,7 @@ build/Release/TelemetryHUD.app
 ## Project Structure
 
 ```
-macos_telemetry_visual/
+tx12_telemetry_visual/
 ├── TelemetryHUD.xcodeproj/     # Xcode project file
 │   └── project.pbxproj
 ├── TelemetryHUD/                # Source code
@@ -87,7 +89,7 @@ macos_telemetry_visual/
 │   │   ├── SerialPortManager.swift
 │   │   └── TerrainService.swift
 │   └── Info.plist              # App configuration
-└── README_MACOS_APP.md         # This file
+└── README.md                   # This file
 ```
 
 ## Usage

@@ -121,7 +121,7 @@ The application expects the same binary protocol as the Python version:
 ## File Organization
 
 ```
-macos_telemetry_visual/
+tx12_telemetry_visual/
 ├── TelemetryHUD.xcodeproj/          # Xcode project
 │   └── project.pbxproj
 ├── TelemetryHUD/                     # Source code
@@ -141,7 +141,7 @@ macos_telemetry_visual/
 │   │   ├── SerialPortManager.swift
 │   │   └── TerrainService.swift
 │   └── Info.plist                   # App config
-├── README_MACOS_APP.md              # Full documentation
+├── README.md                        # Full documentation
 ├── BUILD_INSTRUCTIONS.md            # Quick build guide
 └── PROJECT_SUMMARY.md               # This file
 ```
@@ -163,5 +163,5 @@ macos_telemetry_visual/
 ## Support
 
 For detailed build instructions, see `BUILD_INSTRUCTIONS.md`
-For complete documentation, see `README_MACOS_APP.md`
+For complete documentation, see `README.md`
 
