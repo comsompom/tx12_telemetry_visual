@@ -1,5 +1,8 @@
 # TelemetryHUD - Native macOS Application
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/e041eecb-d173-4c80-ba06-ed82e56a2964" />
+
+
 A fully native macOS application written in Swift for real-time ArduPilot telemetry visualization. This application provides a comprehensive HUD (Heads-Up Display) interface showing aircraft attitude, GPS data, speed, altitude, and terrain information.
 
 ![telemetry.png](telemetry.png)
